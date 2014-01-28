@@ -1,7 +1,7 @@
 {
   "name": "mean-404",
   "description": "MEAN - A Modern Stack: 404 Addon module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "author": "Yonatan Ellman",
   "repository": {
