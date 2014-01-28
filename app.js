@@ -7,6 +7,8 @@ module.exports = function(mean) {
 
 	mean.register('404', function(app, auth, database, middleware) {
 		
+		require('./app/routes/index')(app);
+		
 		middleware.add('after', 999, function(req, res, next) {
 			return res.redirect('#!/404');
 		});
